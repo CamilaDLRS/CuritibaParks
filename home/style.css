@@ -1,0 +1,185 @@
+body {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #666;
+  line-height: 2;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: left;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.div-header {
+  text-align: center;
+}
+
+
+footer {
+  text-align: left;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-top: 30px;
+}
+
+
+.logo {
+  padding: 10px;
+  width: 100px;
+  margin-left: 60px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+  margin-left: 10px;
+}
+
+h3 {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.content {
+  display: flex;
+  align-items: normal;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+
+.carousel {
+  flex: 1;
+  text-align: center;
+}
+
+.carousel img {
+  width: 480px;
+  height: auto;
+  margin-right: 0px;
+}
+
+
+
+.park-info {
+  flex: 1; /* Ocupa o espaço restante no contêiner */
+  padding: 0 20px;
+  text-align: left;
+}
+
+.park-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin: 0;
+}
+
+.park-info p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.park-info a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo-como-chegar{
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+
+
+table {
+  margin: 0 auto; /* Alinha a tabela ao centro */
+  border: 1px solid #ccc; /* Estiliza as bordas */
+  border-collapse: collapse; /* Combina as bordas das células */
+  width: 960px; /* Ocupa todo o espaço disponível */
+}
+
+table td {
+  border: 1px solid #ccc; /* Estiliza as bordas */
+  padding: 8px; /* Adiciona um espaçamento interno */
+  text-align: center;
+}
+
+table th {
+  background-color: #f2f2f2; /* Define uma cor de fundo para os cabeçalhos */
+  text-align: center;
+}
+
+
+
+.author-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.author-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  padding-inline: 50px;
+}
+
+.author-list img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.author-list span {
+  margin-top: 10px;
+}
+
+
+.imagens{
+  border-radius: 8px;
+}
+
+.content {
+  position: relative; /* adicione esta propriedade */
+}
+
+.contact-link {
+  position: absolute; 
+  bottom: 5px; 
+  right: 50px; 
+}
+
+.contact-link a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.login {
+  position: absolute; 
+  bottom: 5px; 
+  right: 160px; 
+}
+
+.login a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.login:hover {
+  color: #499141;
+}
